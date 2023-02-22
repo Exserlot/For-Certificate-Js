@@ -19,7 +19,7 @@
         <button class="symbol" onclick="wipe()">AC</button>
         <button class="symbol" onclick="wipe()">C</button>
         <button class="symbol" onclick="show('/')">/</button>
-        <button class="symbol" onclick="show('*')">*</button>
+        <button class="symbol" onclick="show('*')">x</button>
 
         <button class="number" onclick="show('7')">7</button>
         <button class="number" onclick="show('8')">8</button>
@@ -35,11 +35,10 @@
         <button class="number" onclick="show('2')">2</button>
         <button class="number" onclick="show('3')">3</button>
         <button class="symbol" onclick="show('.')">.</button>
-        <button type="hidden"></button>
 
-        <button class="number" onclick="show('0')">0</button>
-        <button type="hidden"></button>
+        <button class="number" style="grid-column:1/4;" onclick="show('0')">0</button>
         <button class="symbol" onclick="calc('=')">=</button>
+
     </div>
     <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
